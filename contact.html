@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="icon" type="image/png" href="./svg/movie-clapper-svgrepo-com (1).svg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Indie+Flower&family=Lobster&family=Oswald:wght@200..700&family=Playwrite+BE+VLG:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            color: #fff;
+            margin-top: 50px;
+            font-family: 'poppins', sans-serif;
+            transition: all 0.3s ease;
+            background: rgb(209, 12, 91);
+            background: linear-gradient(78deg, rgba(209, 12, 91, 1) 54%, rgba(184, 58, 109, 1) 79%);
+        }
+
+        h1 {
+            text-transform: uppercase;
+        }
+
+        .container {
+            gap: 20px;
+            display: flex;
+            flex-direction: column;
+            height: 80%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+
+        .page {
+            background-color: rgba(255, 0, 98, 0.834);
+            ;
+            height: 40%;
+            width: 40%;
+            display: flex;
+            border-radius: 10px;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .page:hover {
+            border: 2px solid rgb(255, 255, 255);
+            box-shadow: 2px 2px 2px #fff, -2px -2px 5px #fff;
+        }
+
+        h3 {
+            color: #c3c0c0
+        }
+
+        h2 {
+            color: #eceaea;
+        }
+
+        img {
+            width: 100%;
+            padding: 5px;
+            height: 100%;
+            border-radius: 15px;
+        }
+
+        .details {
+            margin-top: 50px;
+            text-align: center;
+            margin-left: 10px;
+
+        }
+
+        .contact {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .forms {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            padding: 10px;
+            padding-right: 15px;
+            align-self: center;
+            text-align: center;
+        }
+
+        .forms input,
+        .forms textarea {
+            margin-top: 15px;
+            margin-bottom: 20px;
+            height: 25px;
+            width: 100%;
+            border-radius: 5px;
+            border: none;
+        }
+        .forms textarea{
+            resize: none;
+        }
+
+        label {
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+
+        .forms textarea {
+            height: 100px;
+        }
+
+        .form-btn {
+            width: 100%;
+            font-size: 2rem;
+            border: none;
+            background-color: rgb(162, 5, 81);
+            padding: 5px 10px;
+            border-radius: 10px;
+            color: #fff;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .form-btn:hover {
+            background-color: rgb(195, 9, 99);
+        }
+
+        .button a {
+            background-color: #fff;
+            border-radius: 25px;
+            text-transform: capitalize;
+            font-size: 1.3rem;
+            padding: 10px 75px;
+            color: #000;
+            text-decoration: none;
+            transition: all 0.4s ease;
+        }
+
+        .button a:hover {
+            color: #fff;
+            background-color: #000000;
+        }
+        @media screen and (max-width:400px) {
+            .container {
+                font-size: 0.6rem;
+            }
+        }
+        @media screen and (max-width:750px) {
+
+            h2,
+            h3 {
+                font-size: 0.7rem;
+            }
+
+            .contact {
+                justify-content: center;
+            }
+
+            .details {
+                margin-top: 15px;
+            }
+
+            .page {
+                flex-direction: column;
+                width: 80%;
+                height: 90%;
+            }
+
+            .image {
+                width: 50%;
+                align-self: center;
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            .myh3 {
+                font-size: 0.6rem;
+            }
+
+            label {
+                font-size: 0.9rem;
+            }
+
+            .contact {
+                width: 75%;
+                height: 75%;
+                align-self: center;
+            }
+
+            .forms input,
+            .forms textarea {
+                height: 20px;
+                margin: 5px;
+            }
+
+            .forms textarea {
+                height: 50px;
+
+            }
+
+            .form-btn {
+                font-size: 0.9rem;
+            }
+
+        }
+
+        @media screen and (max-width:950px) and (min-width:750px) {
+            h2 {
+                font-size: 1rem;
+            }
+
+            h3 {
+                font-size: 0.9rem;
+            }
+
+            label {
+                font-size: 0.9rem;
+            }
+
+            .forms input,
+            .forms textarea {
+                margin: 5px;
+            }
+
+            .forms textarea {
+                height: 80px;
+            }
+
+            .contact {
+                justify-content: center;
+            }
+
+            .details {
+                margin-top: 35px;
+            }
+
+            .form-btn {
+                font-size: 0.9rem;
+                width: 100px;
+            }
+
+            .myh3 {
+                font-size: 0.7rem;
+            }
+
+            .page {
+                height: 50vh;
+            }
+
+        }
+
+        @media screen and (max-width:1250px) and (min-width:950px) {
+            .myh3 {
+                font-size: 0.7rem;
+            }
+
+            .form-btn {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>Contact</h1>
+            <div class="page">
+                <div class="contact">
+                    <div class="image"><img src="./images/contact.png" alt="contact us image"></div>
+                    <div class="details">
+                        <h2><i class="fa-solid fa-phone"></i> Call Us On</h2>
+                        <h3>xxxxx-xxxxx</h3>
+                        <h2><i class="fa-regular fa-envelope"></i> Mail Us On</h2>
+                        <h3 class="myh3">moviepopn@gmail.com</h3>
+                    </div>
+
+                </div>
+                <div class="forms">
+                    <form action="#">
+                        <label for="name">Name</label><br>
+                        <input type="text" name="name" id="name" placeholder=" Name"><br>
+                        <label for="mail">E-mail</label><br>
+                        <input type="mail" name="mail" id="mail" placeholder=" E-mail"><br>
+                        <label for="feedback">feedback</label><br>
+                        <textarea id="feedback" name="feedback" rows="4" cols="20"
+                            placeholder="feedback"></textarea><br>
+                    </form>
+                    <button class="form-btn">Submit</button>
+                </div>
+            </div>
+            <div class="btn">
+                <p class="button"><a href="home.html">Go back</a></p>
+            </div>
+        </div>
+
+    </main>
+    <script src="https://kit.fontawesome.com/6bbd61cbd5.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

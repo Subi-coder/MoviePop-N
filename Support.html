@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Pop'n 24/7 Support</title>
+    <link rel="icon" type="image/png" href="./svg/movie-clapper-svgrepo-com (1).svg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Indie+Flower&family=Lobster&family=Oswald:wght@200..700&family=Playwrite+BE+VLG:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: "poppins","san-serif";
+            background: rgb(209,12,91);
+            background: linear-gradient(78deg, rgba(209,12,91,1) 54%, rgba(184,58,109,1) 79%);
+        }
+        .container{
+            display:flex;
+            height:100%;
+            align-items: center;
+            justify-content: center;
+            gap:25px;
+            flex-direction: column;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+        .button a{
+            background-color: #fff;
+            border-radius: 25px;
+            text-transform: capitalize;
+            font-size: 1.3rem;
+            padding:10px 75px;
+            color:#000;
+            text-decoration: none;
+            transition: all 0.4s ease;
+        }
+        .button a:hover{
+            color:#fff;
+            background-color: #000000;
+        }
+        .support{
+            border:5px solid #b8b7b7;
+            border-radius: 15px;
+            padding:10px;
+            width:50%;
+            transition: all 0.4s ease;
+            text-align: center;
+        }
+        .support:hover{
+            border: 5px solid rgb(255, 255, 255);
+            box-shadow: 2px 2px 5px #fff, -2px -2px 5px #fff;
+        }
+        .support p{
+            margin-left:100px;
+            margin-right:100px;
+            color:#ded8d8;
+            text-align: justify;
+            margin-bottom: 10px;
+        }
+        h1{
+            color:white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        @media screen and (max-width:400px) {
+            .container {
+                font-size: 0.6rem;
+            }
+        }
+        
+        @media screen and (max-width:750px){
+            body{
+                font-size: 0.8rem;
+            }
+            .support{
+                width:85%;
+                height:auto;
+            }
+            .container{
+                margin-top: 50px;
+            }
+            .support p{
+                margin-left:20px;
+                margin-right: 20px;
+            }
+
+        }
+        @media screen and (max-width:950px) and (min-width:750px){
+            body{
+                font-size: 0.9rem;
+            }
+            .support{
+                width:75%;
+                height:auto;
+            }
+            .container{
+                margin-top: 50px;
+            }
+            .support p{
+                margin-left:15px;
+                margin-right: 15px;
+            }
+
+        }
+        @media screen and (max-width:1250px) and (min-width:950px){
+            .support p {
+                margin-left:25px;
+                margin-right: 25px;
+             }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="support">
+                <h1>24/7 Support</h1>
+                <p> Our 24/7 support service is dedicated to ensuring that you have a seamless movie ticket booking
+                    experience, no matter the time of day. Customers can reach us at any hour through various channels,
+                    including chatbot, email, and phone. Whether you have questions about movie schedules, need help
+                    with ticket purchases, or face any issues during the booking process, our knowledgeable team is
+                    always ready to assist. <br>
+                    <br>
+
+                    If you encounter problems with your ticket, such as duplicate charges or errors in your selection,
+                    we are here to resolve those issues quickly and efficiently. For account-related inquiries, like
+                    forgotten passwords or payment difficulties, our support staff is prepared to guide you through the
+                    necessary steps to regain access and security <br>
+                    <br>
+
+                    Should you experience any technical issues while using our website or app, our team can provide
+                    troubleshooting assistance to ensure you can complete your booking without delay. We also welcome
+                    your feedback and suggestions, as we believe they are essential for improving our services. <br>
+                    <br>
+
+                    In cases of last-minute plans, you can rely on our 24/7 support to help you secure tickets for
+                    late-night or early morning screenings. We strive to offer assistance in multiple languages,
+                    accommodating our diverse customer base. <br>
+                    <br>
+
+                    Additionally, we are committed to inclusivity and can provide information about accessibility
+                    features at theaters, such as wheelchair access and support for guests with hearing or visual
+                    impairments. Our aim is to be your reliable partner in all aspects of your movie-going experience,
+                    providing the help you need whenever you need it.
+                </p>
+            </div>
+            <div class="btn">
+                <p class="button"><a href="home.html">Go back</a></p>
+               </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
