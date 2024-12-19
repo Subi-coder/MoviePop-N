@@ -203,7 +203,7 @@ const createChatLi = (message, className) => {
   chatLi.innerHTML =
     className === "outgoing"
       ? `<p>${message}</p>`
-      : `<span><img width="32px" src="/images/Pop’N bot image.jpg" alt="Movie pop'n image"></span> <p>${message}</p>`;
+      : `<span><img width="32px" src="/images/bot-image.jpg" alt="Movie pop'n image"></span> <p>${message}</p>`;
   return chatLi;
 };
 
