@@ -6,120 +6,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Pop'n Services</title>
     <link rel="icon" type="image/png" href="./svg/movie-clapper-svgrepo-com (1).svg">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Indie+Flower&family=Lobster&family=Oswald:wght@200..700&family=Playwrite+BE+VLG:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Indie+Flower&family=Lobster&family=Oswald:wght@200..700&family=Playwrite+BE+VLG:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <style>
-        *{
-            margin:0;
-            padding:0;
+        * {
+            margin: 0;
+            padding: 0;
             box-sizing: border-box;
         }
-        body{
-            font-family: "poppins","san-serif";
-            background: rgb(209,12,91);
-            background: linear-gradient(78deg, rgba(209,12,91,1) 54%, rgba(184,58,109,1) 79%);
+
+        body {
+            font-family: "poppins", "san-serif";
+            background: rgb(209, 12, 91);
+            background: linear-gradient(78deg, rgba(209, 12, 91, 1) 54%, rgba(184, 58, 109, 1) 79%);
         }
-        .container{
-            display:flex;
-            height:100%;
+
+        .container {
+            display: flex;
+            height: 100%;
             align-items: center;
             justify-content: center;
-            gap:25px;
+            gap: 25px;
             flex-direction: column;
             margin-top: 100px;
             margin-bottom: 50px;
         }
-        .button a{
+
+        .button a {
             background-color: #fff;
             border-radius: 25px;
             text-transform: capitalize;
             font-size: 1.3rem;
-            padding:10px 75px;
-            color:#000;
+            padding: 10px 75px;
+            color: #000;
             text-decoration: none;
             transition: all 0.4s ease;
         }
-        .button a:hover{
-            color:#fff;
+
+        .button a:hover {
+            color: #fff;
             background-color: #000000;
         }
-        .services{
-            border:5px solid #b8b7b7;
+
+        .services {
+            border: 5px solid #b8b7b7;
             border-radius: 15px;
-            padding:10px;
-            width:50%;
+            padding: 10px;
+            width: 50%;
             transition: all 0.4s ease;
             text-align: center;
         }
-        .services:hover{
+
+        .services:hover {
             border: 5px solid rgb(255, 255, 255);
             box-shadow: 2px 2px 5px #fff, -2px -2px 5px #fff;
         }
-        .services li{
-            margin-left:100px;
-            margin-right:100px;
-            color:#ded8d8;
+
+        .services li {
+            margin-left: 100px;
+            margin-right: 100px;
+            color: #ded8d8;
             text-align: justify;
             margin-bottom: 10px;
         }
-        h1{
-            color:white;
+
+        h1 {
+            color: white;
         }
-        h3{
-            color:#ded8d8;
+
+        h3 {
+            color: #ded8d8;
             margin-bottom: 10px;
             margin-top: 10px;
         }
-        span{
-            font-weight:bold;
+
+        span {
+            font-weight: bold;
         }
+
         @media screen and (max-width:400px) {
             .container {
                 font-size: 0.6rem;
             }
         }
-        
-        @media screen and (max-width:750px){
-            body{
+
+        @media screen and (max-width:750px) {
+            body {
                 font-size: 0.8rem;
             }
-            .services{
-                width:85%;
-                height:auto;
+
+            .services {
+                width: 85%;
+                height: auto;
             }
-            .container{
+
+            .container {
                 margin-top: 50px;
             }
-            .services li{
-                margin-left:20px;
+
+            .services li {
+                margin-left: 20px;
                 margin-right: 20px;
             }
 
         }
-        @media screen and (max-width:950px) and (min-width:750px){
-            body{
+
+        @media screen and (max-width:950px) and (min-width:750px) {
+            body {
                 font-size: 0.9rem;
             }
-            .services{
-                width:75%;
-                height:auto;
+
+            .services {
+                width: 75%;
+                height: auto;
             }
-            .container{
+
+            .container {
                 margin-top: 50px;
             }
-            .services li{
-                margin-left:15px;
+
+            .services li {
+                margin-left: 15px;
                 margin-right: 15px;
             }
 
         }
-        @media screen and (max-width:1250px) and (min-width:950px){
+
+        @media screen and (max-width:1250px) and (min-width:950px) {
             .services li {
-                margin-left:25px;
+                margin-left: 25px;
                 margin-right: 25px;
-             }
+            }
         }
     </style>
 </head>
@@ -133,7 +154,8 @@
                 <ol>
                     <li><span>Ticket Booking:</span> Seamless booking of movie tickets through the website or app.</li>
                     <li><span>Seat Selection:</span> Ability to choose preferred seats in the theater.</li>
-                    <li><span>Payment Options:</span> Various payment methods including credit/debit cards, digital wallets, and bank
+                    <li><span>Payment Options:</span> Various payment methods including credit/debit cards, digital
+                        wallets, and bank
                         transfers.</li>
                     <li><span>Mobile Ticketing:</span> Digital tickets that can be scanned directly from a smartphone.
                     </li>
@@ -165,8 +187,8 @@
                 </ol>
             </div>
             <div class="btn">
-                <p class="button"><a href="home.html">Go back</a></p>
-               </div>
+                <p class="button"><a href="index.html">Go back</a></p>
+            </div>
         </div>
     </main>
 </body>
